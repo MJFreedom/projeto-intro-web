@@ -6,9 +6,10 @@ const nomePet1 = "Brisa"
 let idadePet1 = 9
 const especiePet1 = "Canina"
 const racaPet1 = "Pastor Alemão"
-let vacinaPet1 = 1 < 9
-let vermifugoPet1 = 5 <= 9
+let vacinaPet1 = true
+let vermifugoPet1 = false
 const arrayBriquedos1 = ["[Bolinha", " ossinho.]"]
+
 console.log(`${nomePet1.toUpperCase()}
 Idade: ${idadePet1}
 Espécie: ${especiePet1}
@@ -23,9 +24,10 @@ const nomePet2 = "Janis"
 let idadePet2 = 8
 const especiePet2 = "Felina"
 const racaPet2 = "SRD"
-let vacinaPet2 = 1 < 8
-let vermifugoPet2 = 5 <= 8
+let vacinaPet2 = true
+let vermifugoPet2 = false
 const arrayBriquedos2 = ["[Caixa de papelão", " arranhador de tecido", " ervinha de gato.]"]
+
 console.log(`${nomePet2.toUpperCase()}
 Idade: ${idadePet2}
 Espécie: ${especiePet2}
@@ -40,9 +42,10 @@ const nomePet3 = "Lua"
 let idadePet3 = 2
 const especiePet3 = "Canina"
 const racaPet3 = "Shin Tzu"
-let vacinaPet3 = 1 < 2
-let vermifugoPet3 = 5 <= 2
+let vacinaPet3 = true
+let vermifugoPet3 = false
 const arrayBriquedos3 = ["[Bolinha", " ossinho", " orelha de boi", " ursinho.]"]
+
 console.log(`${nomePet3.toUpperCase()}
 Idade: ${idadePet3}
 Espécie: ${especiePet3}
@@ -57,9 +60,10 @@ const nomePet4 = "Marilyn"
 let idadePet4 = 7
 const especiePet4 = "Felina"
 const racaPet4 = "SRD"
-let vacinaPet4 = 1 < 7
-let vermifugoPet4 = 5 <= 7
+let vacinaPet4 = true
+let vermifugoPet4 = false   
 const arrayBriquedos4 = ["[Caixa de papelão", " barbante enrolado", " erva de gato", " bolinha de lã.]"]
+
 console.log(`${nomePet4.toUpperCase()}
 Idade: ${idadePet4}
 Espécie: ${especiePet4}
@@ -71,13 +75,11 @@ Brinquedos: ${arrayBriquedos4}
 
 //média
 let mediaPets = (idadePet1+idadePet2+idadePet3+idadePet4) / 4
-console.log(mediaPets)
+console.log(`Média de Idade dos meus pets: ${mediaPets}`)
 
 //verificar booleanos
 const verificarVacinas = vacinaPet1 && vacinaPet2 && vacinaPet3 && vacinaPet4
 const verificarVermifugo = vermifugoPet1 && vermifugoPet2 && vermifugoPet3 && vermifugoPet4
-console.log(`Verificar Vacinas: ${verificarVacinas}
-Verificar Vermifugo: ${verificarVermifugo}
+console.log(`Todas vacinadas? ${verificarVacinas}
+Todas vermifugadas? ${verificarVermifugo}
 `)
-
-
